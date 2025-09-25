@@ -67,6 +67,11 @@ web_modules/
 
 # dotenv environment variable files
 .env
+
+PASWD = IuqPB9xxv9Xhn17A
+
+KEY = "mongodb+srv://siddharthbigshows_db_user:IuqPB9xxv9Xhn17A@cluster0.91t457g.mongodb.net/"
+
 .env.*
 !.env.example
 
