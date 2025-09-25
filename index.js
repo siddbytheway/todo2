@@ -1,14 +1,3 @@
-const MongoClient = require("mongodb").MongoClient;
-require('dotenv').config()
+var mongoose = require("mongoose");
 
-let url = process.env.KEY
-
-console.log(url)
-
-MongoClient.connect(url , (err,db) => {
-    if(err) throw err;
-
-    console.log("Database created")
-    db.close();
-})
-
+mongoose.connect("mongodb://localhost:3000/")
